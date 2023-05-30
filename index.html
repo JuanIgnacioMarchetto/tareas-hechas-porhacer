@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tareas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-container">
+      <label for="tarea-input">Tarea:</label>
+      <input type="text" id="tarea-input">
+    </div>
+    <div class="input-container">
+      <label for="dia-input">Día:</label>
+      <input type="text" id="dia-input">
+    </div>
+    <div class="input-container">
+      <label for="numero">Número de Divs:</label>
+      <input type="number" id="numero">
+    </div>
+    <div class="input-container">
+      <label for="color">Color:</label>
+      <input type="color" id="color">
+    </div>
+    <button id="boton-crear">Crear Divs</button>
+    <button id="boton-arcoiris" style="display: none;">Arcoíris</button>
+    <div id="contenedor"></div>
+  </div>
+  <div class="nav">
+    <h3>Tareas Realizadas:</h3>
+    <ul id="realizadas-list"></ul>
+    <h3>Tareas Pendientes:</h3>
+    <ul id="pendientes-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

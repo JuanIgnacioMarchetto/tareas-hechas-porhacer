@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .nav.visible {
+    display: block;
+  }
+  
+  .task-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .task-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .task-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .task-card button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 2px 5px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .task-card button:hover {
+    color: #333;
+  }
+  
+  .task-card.completed {
+    opacity: 0.6;
+  }
+  
+  .task-card.deleted {
+    display: none;
+  }
+  
+  .nav h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .nav li {
+    margin-bottom: 5px;
+  }
+  
+  .nav span {
+    margin-right: 5px;
+  }
+  
+  .nav span:last-child {
+    color: #999;
+  }
+  
